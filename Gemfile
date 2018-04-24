@@ -3,7 +3,17 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.7'
 
+gem 'bulma-rails', '~> 0.7.1'
+gem 'simple_form', '~> 4.0'
+gem 'devise', '~> 4.4', '>= 4.4.3'
+gem 'gravatar_image_tag', '~> 1.2'
+gem 'carrierwave', '~> 1.2', '>= 1.2.2'
+gem 'mini_magick', '~> 4.8'
+
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+
 gem 'rails', '~> 5.2.0'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
@@ -56,6 +66,8 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
+  gem 'better_errors', '~> 2.4'
+  gem 'guard', '~> 2.14', '>= 2.14.2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
