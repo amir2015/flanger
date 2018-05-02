@@ -9,7 +9,11 @@ gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'carrierwave', '~> 1.2', '>= 1.2.2'
 gem 'mini_magick', '~> 4.8'
+<<<<<<< HEAD
 gem 'nokogiri', '~> 1.6', '>= 1.6.8'
+=======
+
+>>>>>>> c4f8682f22e07d054a4920acaa78ffbbfd15d2d0
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
